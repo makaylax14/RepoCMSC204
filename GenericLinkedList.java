@@ -1,12 +1,8 @@
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
-/**
- * This class is used as a linked list for various data types,
- * such as Playlist, Song, and User.
- * @param <T>
- */
-public class GenericLinkedList<T> implements Iterable<T>{
+
+public class GenericLinkedList<T> implements Iterable<T> {
 	/**
 	 * First node
 	 */
